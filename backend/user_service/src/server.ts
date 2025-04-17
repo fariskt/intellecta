@@ -7,12 +7,12 @@ import "./consumers/getAllUsersConsumer";
 
 
 dotenv.config()
-const PORT = Number(process.env.PORT)  || 5001
+const PORT = Number(process.env.PORT)  || 5000
 
 connectDb()
 
 
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, () => {
     console.log(`User Service is running on port ${PORT}`);
 });
 

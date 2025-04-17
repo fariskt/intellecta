@@ -1,4 +1,4 @@
-import { consumeFromQueue } from "../utils/rabbitmq";
+import { consumeFromQueue } from "../utils/rabbitmq/rabbitmq";
 
 const userCache = new Map<string, any>();
 
